@@ -252,6 +252,7 @@ def run_tesseract(
     nice=0,
     timeout=0,
 ):
+    tesseract_cmd = ‘tesseract’
     cmd_args = []
     not_windows = not (sys.platform == 'win32')
 
